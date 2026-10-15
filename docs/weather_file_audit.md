@@ -26,3 +26,29 @@
 
 These files have different geographic coverage and levels of spatial aggregation.
 Do not join them to crop-yield data as though they represent the same locations.
+
+
+## Final audit measurements
+
+### Older annual state rainfall
+- Older file: 170 rows; validated candidate: 136 rows.
+- Overlapping state-year records: 102.
+- Mean absolute precipitation difference: 308.094 mm.
+- Conclusion: do not substitute the older aggregation for the validated candidate.
+
+### Older NASA POWER export
+- Records: 11,424, covering 1991?2024.
+- Longitude range: 68.125??77.5?E.
+- Current combined dataset longitude range: 78.125??87.5?E.
+- Duplicate coordinate-year records in the older export: 0.
+- Conclusion: different geographic coverage; retain locally for reference only.
+
+### Older grid-to-state mapping
+- Grid points: 336.
+- Missing state labels: 269.
+- Labeled points: 67.
+- Validated mapping has 51 labeled points out of 336.
+- Conclusion: prefer the validated mapping and do not force labels onto unmapped points.
+
+These three older files remain local and untracked. They have not been deleted
+or added to the modeling workflow.
