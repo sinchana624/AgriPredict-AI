@@ -1,0 +1,15 @@
+AGRIPREDICT AI ? EXPLORATORY DATASET VALIDATION
+Crop rows: 102
+Output rows: 102
+Output columns: 61
+Crop years: 1991-2024
+Weather years: 1991-2024
+Pesticide years: 1991-2024
+Weather matches: 102 / 102
+Pesticide matches: 102 / 102
+Missing cells in output: 0
+Duplicate crop-year-location keys: 0
+Weather scope: regional grid 6-16N, 78-88E; 336 grid points.
+Pesticide scope: India national.
+Status: exploratory only; geographic mismatch prevents validated nationwide prediction.
+State crop candidate contains seasonal rows; do not treat as annual yield without valid aggregation.
