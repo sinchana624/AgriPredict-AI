@@ -1,0 +1,137 @@
+Area,Year,Item,Element,Unit,Value,Flag,Flag Description
+India,1991,Pesticides (total),Agricultural Use,t,72133.0,A,Official value
+India,1991,Pesticides (total),Use per area of cropland,kg/ha,0.42,E,Estimated value
+India,1991,Pesticides (total),Use per capita,kg/cap,0.08,E,Estimated value
+India,1991,Pesticides (total),Use per value of agricultural production,g/Int$,0.38,E,Estimated value
+India,1992,Pesticides (total),Agricultural Use,t,70791.0,A,Official value
+India,1992,Pesticides (total),Use per area of cropland,kg/ha,0.42,E,Estimated value
+India,1992,Pesticides (total),Use per capita,kg/cap,0.08,E,Estimated value
+India,1992,Pesticides (total),Use per value of agricultural production,g/Int$,0.35,E,Estimated value
+India,1993,Pesticides (total),Agricultural Use,t,66074.0,I,Value imputed by a receiving agency
+India,1993,Pesticides (total),Use per area of cropland,kg/ha,0.39,E,Estimated value
+India,1993,Pesticides (total),Use per capita,kg/cap,0.07,E,Estimated value
+India,1993,Pesticides (total),Use per value of agricultural production,g/Int$,0.33,E,Estimated value
+India,1994,Pesticides (total),Agricultural Use,t,61357.0,A,Official value
+India,1994,Pesticides (total),Use per area of cropland,kg/ha,0.36,E,Estimated value
+India,1994,Pesticides (total),Use per capita,kg/cap,0.07,E,Estimated value
+India,1994,Pesticides (total),Use per value of agricultural production,g/Int$,0.29,E,Estimated value
+India,1995,Pesticides (total),Agricultural Use,t,61257.0,A,Official value
+India,1995,Pesticides (total),Use per area of cropland,kg/ha,0.36,E,Estimated value
+India,1995,Pesticides (total),Use per capita,kg/cap,0.06,E,Estimated value
+India,1995,Pesticides (total),Use per value of agricultural production,g/Int$,0.29,E,Estimated value
+India,1996,Pesticides (total),Agricultural Use,t,56114.0,A,Official value
+India,1996,Pesticides (total),Use per area of cropland,kg/ha,0.33,E,Estimated value
+India,1996,Pesticides (total),Use per capita,kg/cap,0.06,E,Estimated value
+India,1996,Pesticides (total),Use per value of agricultural production,g/Int$,0.26,E,Estimated value
+India,1997,Pesticides (total),Agricultural Use,t,52279.0,A,Official value
+India,1997,Pesticides (total),Use per area of cropland,kg/ha,0.31,E,Estimated value
+India,1997,Pesticides (total),Use per capita,kg/cap,0.05,E,Estimated value
+India,1997,Pesticides (total),Use per value of agricultural production,g/Int$,0.23,E,Estimated value
+India,1998,Pesticides (total),Agricultural Use,t,49157.0,A,Official value
+India,1998,Pesticides (total),Use per area of cropland,kg/ha,0.29,E,Estimated value
+India,1998,Pesticides (total),Use per capita,kg/cap,0.05,E,Estimated value
+India,1998,Pesticides (total),Use per value of agricultural production,g/Int$,0.22,E,Estimated value
+India,1999,Pesticides (total),Agricultural Use,t,46195.0,A,Official value
+India,1999,Pesticides (total),Use per area of cropland,kg/ha,0.27,E,Estimated value
+India,1999,Pesticides (total),Use per capita,kg/cap,0.04,E,Estimated value
+India,1999,Pesticides (total),Use per value of agricultural production,g/Int$,0.19,E,Estimated value
+India,2000,Pesticides (total),Agricultural Use,t,44958.0,I,Value imputed by a receiving agency
+India,2000,Pesticides (total),Use per area of cropland,kg/ha,0.26,E,Estimated value
+India,2000,Pesticides (total),Use per capita,kg/cap,0.04,E,Estimated value
+India,2000,Pesticides (total),Use per value of agricultural production,g/Int$,0.19,E,Estimated value
+India,2001,Pesticides (total),Agricultural Use,t,43720.0,I,Value imputed by a receiving agency
+India,2001,Pesticides (total),Use per area of cropland,kg/ha,0.26,E,Estimated value
+India,2001,Pesticides (total),Use per capita,kg/cap,0.04,E,Estimated value
+India,2001,Pesticides (total),Use per value of agricultural production,g/Int$,0.18,E,Estimated value
+India,2002,Pesticides (total),Agricultural Use,t,42483.0,I,Value imputed by a receiving agency
+India,2002,Pesticides (total),Use per area of cropland,kg/ha,0.25,E,Estimated value
+India,2002,Pesticides (total),Use per capita,kg/cap,0.04,E,Estimated value
+India,2002,Pesticides (total),Use per value of agricultural production,g/Int$,0.18,E,Estimated value
+India,2003,Pesticides (total),Agricultural Use,t,41245.0,A,Official value
+India,2003,Pesticides (total),Use per area of cropland,kg/ha,0.24,E,Estimated value
+India,2003,Pesticides (total),Use per capita,kg/cap,0.04,E,Estimated value
+India,2003,Pesticides (total),Use per value of agricultural production,g/Int$,0.17,E,Estimated value
+India,2004,Pesticides (total),Agricultural Use,t,35113.0,A,Official value
+India,2004,Pesticides (total),Use per area of cropland,kg/ha,0.21,E,Estimated value
+India,2004,Pesticides (total),Use per capita,kg/cap,0.03,E,Estimated value
+India,2004,Pesticides (total),Use per value of agricultural production,g/Int$,0.14,E,Estimated value
+India,2005,Pesticides (total),Agricultural Use,t,35342.0,A,Official value
+India,2005,Pesticides (total),Use per area of cropland,kg/ha,0.21,E,Estimated value
+India,2005,Pesticides (total),Use per capita,kg/cap,0.03,E,Estimated value
+India,2005,Pesticides (total),Use per value of agricultural production,g/Int$,0.13,E,Estimated value
+India,2006,Pesticides (total),Agricultural Use,t,37423.0,A,Official value
+India,2006,Pesticides (total),Use per area of cropland,kg/ha,0.22,E,Estimated value
+India,2006,Pesticides (total),Use per capita,kg/cap,0.03,E,Estimated value
+India,2006,Pesticides (total),Use per value of agricultural production,g/Int$,0.13,E,Estimated value
+India,2007,Pesticides (total),Agricultural Use,t,27423.0,A,Official value
+India,2007,Pesticides (total),Use per area of cropland,kg/ha,0.16,E,Estimated value
+India,2007,Pesticides (total),Use per capita,kg/cap,0.02,E,Estimated value
+India,2007,Pesticides (total),Use per value of agricultural production,g/Int$,0.09,E,Estimated value
+India,2008,Pesticides (total),Agricultural Use,t,14485.0,A,Official value
+India,2008,Pesticides (total),Use per area of cropland,kg/ha,0.09,E,Estimated value
+India,2008,Pesticides (total),Use per capita,kg/cap,0.01,E,Estimated value
+India,2008,Pesticides (total),Use per value of agricultural production,g/Int$,0.05,E,Estimated value
+India,2009,Pesticides (total),Agricultural Use,t,28707.0,A,Official value
+India,2009,Pesticides (total),Use per area of cropland,kg/ha,0.17,E,Estimated value
+India,2009,Pesticides (total),Use per capita,kg/cap,0.02,E,Estimated value
+India,2009,Pesticides (total),Use per value of agricultural production,g/Int$,0.09,E,Estimated value
+India,2010,Pesticides (total),Agricultural Use,t,40094.0,A,Official value
+India,2010,Pesticides (total),Use per area of cropland,kg/ha,0.24,E,Estimated value
+India,2010,Pesticides (total),Use per capita,kg/cap,0.03,E,Estimated value
+India,2010,Pesticides (total),Use per value of agricultural production,g/Int$,0.12,E,Estimated value
+India,2011,Pesticides (total),Agricultural Use,t,40094.0,I,Value imputed by a receiving agency
+India,2011,Pesticides (total),Use per area of cropland,kg/ha,0.24,E,Estimated value
+India,2011,Pesticides (total),Use per capita,kg/cap,0.03,E,Estimated value
+India,2011,Pesticides (total),Use per value of agricultural production,g/Int$,0.11,E,Estimated value
+India,2012,Pesticides (total),Agricultural Use,t,40094.0,I,Value imputed by a receiving agency
+India,2012,Pesticides (total),Use per area of cropland,kg/ha,0.24,E,Estimated value
+India,2012,Pesticides (total),Use per capita,kg/cap,0.03,E,Estimated value
+India,2012,Pesticides (total),Use per value of agricultural production,g/Int$,0.11,E,Estimated value
+India,2013,Pesticides (total),Agricultural Use,t,40094.0,I,Value imputed by a receiving agency
+India,2013,Pesticides (total),Use per area of cropland,kg/ha,0.24,E,Estimated value
+India,2013,Pesticides (total),Use per capita,kg/cap,0.03,E,Estimated value
+India,2013,Pesticides (total),Use per value of agricultural production,g/Int$,0.11,E,Estimated value
+India,2014,Pesticides (total),Agricultural Use,t,40094.0,I,Value imputed by a receiving agency
+India,2014,Pesticides (total),Use per area of cropland,kg/ha,0.24,E,Estimated value
+India,2014,Pesticides (total),Use per capita,kg/cap,0.03,E,Estimated value
+India,2014,Pesticides (total),Use per value of agricultural production,g/Int$,0.1,E,Estimated value
+India,2015,Pesticides (total),Agricultural Use,t,40094.0,I,Value imputed by a receiving agency
+India,2015,Pesticides (total),Use per area of cropland,kg/ha,0.24,E,Estimated value
+India,2015,Pesticides (total),Use per capita,kg/cap,0.03,E,Estimated value
+India,2015,Pesticides (total),Use per value of agricultural production,g/Int$,0.1,E,Estimated value
+India,2016,Pesticides (total),Agricultural Use,t,40094.0,I,Value imputed by a receiving agency
+India,2016,Pesticides (total),Use per area of cropland,kg/ha,0.24,E,Estimated value
+India,2016,Pesticides (total),Use per capita,kg/cap,0.03,E,Estimated value
+India,2016,Pesticides (total),Use per value of agricultural production,g/Int$,0.1,E,Estimated value
+India,2017,Pesticides (total),Agricultural Use,t,40094.0,I,Value imputed by a receiving agency
+India,2017,Pesticides (total),Use per area of cropland,kg/ha,0.24,E,Estimated value
+India,2017,Pesticides (total),Use per capita,kg/cap,0.03,E,Estimated value
+India,2017,Pesticides (total),Use per value of agricultural production,g/Int$,0.1,E,Estimated value
+India,2018,Pesticides (total),Agricultural Use,t,40094.0,I,Value imputed by a receiving agency
+India,2018,Pesticides (total),Use per area of cropland,kg/ha,0.24,E,Estimated value
+India,2018,Pesticides (total),Use per capita,kg/cap,0.03,E,Estimated value
+India,2018,Pesticides (total),Use per value of agricultural production,g/Int$,0.09,E,Estimated value
+India,2019,Pesticides (total),Agricultural Use,t,40094.0,I,Value imputed by a receiving agency
+India,2019,Pesticides (total),Use per area of cropland,kg/ha,0.24,E,Estimated value
+India,2019,Pesticides (total),Use per capita,kg/cap,0.03,E,Estimated value
+India,2019,Pesticides (total),Use per value of agricultural production,g/Int$,0.09,E,Estimated value
+India,2020,Pesticides (total),Agricultural Use,t,40094.0,I,Value imputed by a receiving agency
+India,2020,Pesticides (total),Use per area of cropland,kg/ha,0.24,E,Estimated value
+India,2020,Pesticides (total),Use per capita,kg/cap,0.03,E,Estimated value
+India,2020,Pesticides (total),Use per value of agricultural production,g/Int$,0.09,E,Estimated value
+India,2021,Pesticides (total),Agricultural Use,t,40094.0,I,Value imputed by a receiving agency
+India,2021,Pesticides (total),Use per area of cropland,kg/ha,0.24,E,Estimated value
+India,2021,Pesticides (total),Use per capita,kg/cap,0.03,E,Estimated value
+India,2021,Pesticides (total),Use per value of agricultural production,g/Int$,0.08,E,Estimated value
+India,2022,Pesticides (total),Agricultural Use,t,40094.0,E,Estimated value
+India,2022,Pesticides (total),Use per area of cropland,kg/ha,0.24,E,Estimated value
+India,2022,Pesticides (total),Use per capita,kg/cap,0.03,E,Estimated value
+India,2022,Pesticides (total),Use per value of agricultural production,g/Int$,0.08,E,Estimated value
+India,2023,Pesticides (total),Agricultural Use,t,40094.0,E,Estimated value
+India,2023,Pesticides (total),Use per area of cropland,kg/ha,0.24,E,Estimated value
+India,2023,Pesticides (total),Use per capita,kg/cap,0.03,E,Estimated value
+India,2023,Pesticides (total),Use per value of agricultural production,g/Int$,0.08,E,Estimated value
+India,2024,Pesticides (total),Agricultural Use,t,40094.0,E,Estimated value
+India,2024,Pesticides (total),Use per area of cropland,kg/ha,0.24,E,Estimated value
+India,2024,Pesticides (total),Use per capita,kg/cap,0.03,E,Estimated value
+India,2024,Pesticides (total),Use per value of agricultural production,g/Int$,0.07,E,Estimated value
