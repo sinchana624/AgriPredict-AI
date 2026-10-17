@@ -222,3 +222,7 @@ __marimo__/
 __pycache__/
 *.py[cod]
 .env
+
+# Local source datasets and temporary backup
+data/raw/
+app_backup_before_ml.py
