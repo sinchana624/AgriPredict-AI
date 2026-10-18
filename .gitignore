@@ -226,3 +226,8 @@ __pycache__/
 # Local source datasets and temporary backup
 data/raw/
 app_backup_before_ml.py
+# Local user database
+data/agripredict_users.db
+
+# Local secrets
+.streamlit/secrets.toml
