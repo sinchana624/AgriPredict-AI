@@ -223,5 +223,6 @@ __pycache__/
 *.py[cod]
 .env
 
-# Raw source datasets: keep local until reviewed
+# Local source datasets and temporary backup
 data/raw/
+app_backup_before_ml.py
