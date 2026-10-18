@@ -1,34 +1,44 @@
 # 🌾 AgriPredict AI
+### AI-Powered Crop Yield Prediction and Agricultural Decision Support System
 
-### AI-Powered Crop Yield Prediction, Pesticide Usage Analysis and Agricultural Decision Support System
+AgriPredict AI is a machine-learning-based agricultural analytics application designed to explore historical crop yields, visualize agricultural trends, and generate experimental crop-yield estimates using historical crop and weather information.
 
-AgriPredict AI is a machine-learning-based agricultural analytics project designed to explore historical crop-yield trends and generate experimental crop-yield estimates using historical crop and weather information.
-
-The application provides an interactive dashboard where users can explore agricultural data, generate predictions, review model evaluation metrics, manage their profiles, and download PDF reports.
+The application provides an interactive Streamlit dashboard with user authentication, data visualization, model evaluation, and PDF report generation.
 
 ## ✨ Features
 
-- **User Authentication:** Local sign-up, login, and logout using SQLite.
-- **Profile Management:** Update your name and user role.
-- **Overview Dashboard:** View dataset summaries and agricultural insights.
-- **Crop Yield Prediction:** Generate experimental yield estimates using year, crop, and weather inputs.
-- **Explore Historical Data:** Filter crop-yield records and visualize historical trends.
-- **Model Performance:** Review test MAE, RMSE, and R² metrics.
-- **PDF Report Generation:** Generate and download reports containing available project information and prediction results.
-- **Interactive Visualizations:** Explore agricultural data through interactive charts.
+- **User Authentication:** Sign up, log in, and manage a local user profile.
+- **Crop Yield Prediction:** Generate experimental yield estimates using year, crop, and annual weather features.
+- **Historical Data Analysis:** Explore crop-yield trends across available years and crops.
+- **Interactive Visualizations:** View charts and summaries of historical agricultural data.
+- **Model Performance:** Review evaluation metrics, including Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), and R².
+- **PDF Report Generation:** Generate and download a report containing relevant project data, prediction results when available, and model evaluation information.
+- **Profile Management:** View and update profile details supported by the application.
+
+## 🎯 Objectives
+
+- Analyze historical crop-yield trends.
+- Compare yields across available crops.
+- Explore the relationship between annual weather conditions and crop yields.
+- Demonstrate a machine-learning prediction workflow.
+- Present model evaluation results transparently.
+- Provide an accessible interface for exploring agricultural data.
 
 ## 🛠️ Technology Stack
 
-- **Programming Language:** Python
-- **Web Framework:** Streamlit
-- **Data Processing:** Pandas, NumPy
-- **Machine Learning:** Scikit-learn
-- **Visualization:** Plotly
-- **Model Storage:** Joblib
-- **Local Authentication Database:** SQLite
-- **PDF Reports:** ReportLab
+| Technology | Purpose |
+|---|---|
+| Python | Application development |
+| Streamlit | Interactive web dashboard |
+| Pandas | Data loading and manipulation |
+| NumPy | Numerical operations |
+| Scikit-learn | Machine-learning pipeline |
+| Joblib | Saving and loading the trained model |
+| Plotly | Interactive charts |
+| SQLite | Local user-account storage |
+| ReportLab | PDF report generation |
 
-## 📁 Project Structure
+## 📂 Project Structure
 
 ```text
 AgriPredict-AI/
@@ -37,9 +47,9 @@ AgriPredict-AI/
 ├── requirements.txt
 ├── README.md
 ├── data/
-│   ├── processed/
-│   │   └── combined_crop_yield.csv
-│   └── agripredict_users.db
+│   └── processed/
+│       ├── combined_crop_yield.csv
+│       └── exploratory_model_dataset_for_handoff.csv
 ├── models/
 │   └── yield_model.joblib
 ├── reports/
@@ -47,13 +57,13 @@ AgriPredict-AI/
 ├── src/
 │   ├── predict.py
 │   └── train_model.py
-├── tests/
-└── .gitignore
+└── tests/
+    └── test_predict.py
 ```
 
-The SQLite database is created locally when users register. It should not be uploaded to the public repository.
+*Note: The files shown above represent the expected project layout. Some files may differ depending on your current repository.*
 
-## ⚙️ Installation and Setup
+## 💻 Installation and Setup
 
 ### 1. Clone the repository
 
@@ -64,11 +74,16 @@ cd AgriPredict-AI
 
 ### 2. Create a virtual environment
 
-**Windows:**
+On Windows:
 
 ```powershell
 python -m venv .venv
-.venv\Scripts\Activate.ps1
+```
+
+Activate it:
+
+```powershell
+.\.venv\Scripts\Activate.ps1
 ```
 
 ### 3. Install dependencies
@@ -77,67 +92,111 @@ python -m venv .venv
 python -m pip install -r requirements.txt
 ```
 
-If ReportLab is not included in `requirements.txt`, install it separately:
+Ensure `requirements.txt` includes the packages required by your application, including Streamlit, Pandas, NumPy, scikit-learn, Joblib, Plotly, and the PDF-generation library used in `app.py`.
+
+### 4. Verify project data and model files
+
+Before running the application, confirm that the processed datasets and trained model exist in the expected locations.
+
+If the model needs to be retrained, run the training script from the project root:
 
 ```bash
-python -m pip install reportlab
+python src/train_model.py
 ```
 
-### 4. Verify required files
+Retraining may replace the existing model and evaluation files.
 
-Ensure that the project contains the processed dataset, trained model, and model metrics:
-
-- `data/processed/combined_crop_yield.csv`
-- `models/yield_model.joblib`
-- `reports/model_metrics.csv`
-
-If these files are not present, follow the model-training instructions in the project before launching the dashboard.
-
-### 5. Run the application
+### 5. Start the application
 
 ```bash
 python -m streamlit run app.py
 ```
 
-Open the local URL displayed in the terminal.
+Open the local URL displayed in your terminal, usually `http://localhost:8501`.
 
-## 🔐 Authentication
+## 📊 Dashboard Sections
 
-AgriPredict AI uses a local SQLite database for account registration and authentication.
+### Overview
+Provides a summary of the available dataset, crops, year range, and historical yield information.
 
-Users can:
+### Yield Prediction
+Allows users to select a crop, choose a year, enter annual weather values, and generate an experimental crop-yield estimate.
 
-1. Create an account with their name, email, and password.
-2. Sign in using their registered credentials.
-3. Update their profile information.
-4. Sign out of the application.
+### Explore Data
+Displays historical yield trends and supports exploration of the available records.
 
-The user database is stored locally and is not shared automatically across different computers.
+### Model Performance
+Displays the model evaluation metrics generated by the training pipeline, including MAE, RMSE, and R² when the corresponding metrics are available.
 
-**Security note:** This authentication setup is intended for a local project demonstration. A public deployment requires additional security measures and an appropriate production authentication solution.
+### Profile
+Allows users to view and update supported profile details.
 
-## 📊 Model Evaluation
+### Report Generation
+Provides a downloadable PDF report containing the information supported by the current report-generation implementation.
 
-The dashboard displays the available model evaluation metrics:
+## 🤖 Machine-Learning Workflow
 
-- **MAE (Mean Absolute Error):** Measures the average absolute difference between actual and predicted yields.
-- **RMSE (Root Mean Squared Error):** Measures prediction error while penalizing larger errors more heavily.
-- **R² (Coefficient of Determination):** Describes how well the model explains variation in the evaluation data.
+1. Load the available agricultural dataset.
+2. Prepare the features and target variable.
+3. Preprocess numerical and categorical features.
+4. Train and evaluate candidate machine-learning models.
+5. Save the selected model and evaluation metrics.
+6. Load the trained model in the Streamlit application.
+7. Accept user inputs and generate an experimental yield estimate.
+8. Present the result alongside historical data and appropriate limitations.
 
-The metrics are loaded from `reports/model_metrics.csv`. Their values depend on the model-training pipeline and dataset.
+### Prediction Features
+
+The current six-feature prediction pipeline is designed to use:
+
+- Year
+- Crop
+- Annual rainfall
+- Annual maximum temperature
+- Annual mean temperature
+- Annual minimum temperature
+
+The target variable is crop yield, measured in tonnes per hectare.
+
+## 📈 Model Evaluation
+
+The application can display:
+
+- **MAE:** Mean absolute difference between actual and predicted yields.
+- **RMSE:** Root mean squared prediction error, which penalizes larger errors more strongly.
+- **R²:** A measure of how well the model explains variation in the evaluation data.
+
+The values displayed by the dashboard should come from the saved evaluation metrics generated by the training pipeline.
 
 ## ⚠️ Limitations
 
-- Predictions are experimental estimates, not guaranteed crop yields.
-- Dataset coverage and quality can affect model performance.
-- Historical trends may not represent future agricultural conditions.
-- Weather inputs alone do not capture soil quality, irrigation, pests, farming practices, or other important factors.
-- The model requires further independent validation before being used for real agricultural decisions.
-- Local SQLite accounts are not automatically available across devices.
-
-The application should be treated as an educational and experimental decision-support prototype, not as a substitute for professional agricultural advice.
+- The available dataset contains historical crop-yield information for selected crops and years.
+- The dataset and weather information may have different geographic coverage.
+- The model is experimental and has not been established as a reliable nationwide agricultural forecasting system.
+- Predictions for years beyond the training period are extrapolations and may be unreliable.
+- Annual weather values do not capture all agricultural factors, such as soil quality, irrigation, pests, farming practices, or seasonal weather variation.
+- Model performance on historical data does not guarantee future accuracy.
+- The application should not be used as the sole basis for agricultural, financial, or pesticide-related decisions.
+- User accounts are stored locally in SQLite in the current local-authentication implementation. Accounts and profile information are not automatically shared between different computers.
 
 ## 🚀 Future Enhancements
 
-- Integrate live and historical weather APIs.
-- Improve model validation
+- Integrate verified pesticide-use statistics and develop a separate pesticide-analysis dashboard.
+- Incorporate soil quality, irrigation, and additional environmental features.
+- Improve geographic and seasonal alignment of datasets.
+- Evaluate models using robust chronological validation and independent test data.
+- Explore explainable AI methods to help interpret model predictions.
+- Add secure centralized authentication if the application is deployed for multiple users.
+- Improve report customization and downloadable data summaries.
+
+## 👥 Project Team
+
+Developed collaboratively by a team of three interns as an agricultural machine-learning and decision-support project.
+
+## 📌 Disclaimer
+
+AgriPredict AI is an educational and experimental project intended to demonstrate agricultural data analysis and machine learning. Its estimates are not validated agricultural recommendations.
+
+---
+
+**Repository:** [AgriPredict AI on GitHub](https://github.com/sinchana624/AgriPredict-AI)
