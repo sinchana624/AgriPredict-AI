@@ -1,0 +1,34 @@
+﻿AGRIPREDICT AI - DATA HANDOFF NOTES
+===================================
+
+Dataset:
+exploratory_model_dataset_for_handoff.csv
+
+Coverage:
+1991-2024 (34 years)
+3 crops, 102 rows
+
+Included data:
+- Crop production, harvested area and yield
+- Monthly and annual rainfall
+- Monthly and annual maximum temperature
+- Monthly and annual mean temperature
+- Monthly and annual minimum temperature
+- Annual pesticide use
+
+IMPORTANT LIMITATIONS:
+1. Crop and pesticide figures are India-wide.
+2. Weather data represent a regional grid covering approximately
+   6-16 degrees North and 78-88 degrees East.
+3. The geographic scopes do not match.
+4. This dataset is exploratory only. It is NOT validated for
+   nationwide crop-yield prediction.
+5. Do not describe the regional weather as all-India weather.
+6. Inspect source definitions, units and methodology before
+   training a model or presenting results.
+
+Original source file:
+exploratory_model_dataset_4vars_candidate.csv
+
+The original source and raw data must be preserved.
+No new data were collected for this handoff.
