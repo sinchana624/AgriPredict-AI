@@ -37,7 +37,9 @@ Import `predict_yield` from `src.predict`.
 Provide all six required input features.
 The returned value is in tonnes per hectare.
 
-## Limitations
-This dataset is exploratory and has geographic-scope
-limitations. The evaluation does not establish reliable
-nationwide or pre-season prediction performance.
+## Model limitations
+The current baseline uses only `year` and `crop` to predict
+crop yield. It does not use rainfall or temperature features.
+Predictions for future years are extrapolations of historical
+trends and are not validated nationwide agricultural forecasts.
+
