@@ -1,2 +1,2 @@
-model,test_MAE,test_RMSE,test_R2,test_start_year,test_end_year,test_rows
-Linear Regression,0.27693147760528863,0.33352070457333927,0.3352289010326943,2018,2024,21
+Model,Test_MAE,Test_RMSE,Test_R2,Test_Start_Year,Test_End_Year,Test_Rows
+Linear Regression,0.2745986648249965,0.33206271996889575,0.34102828638059624,2018,2024,21
